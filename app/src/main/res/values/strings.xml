@@ -19,4 +19,12 @@
     <string name="slide_4_title">GUIDE</string>
     <string name="slide_4_desc">Cari Guide Untuk Menemani Perjalananmu Agar  semakin asyik </string>
 
+
+    <!--    Menu    -->
+    <string name="buttom_nav_home">Home</string>
+    <string name="buttom_nav_search">Search</string>
+    <string name="title_activity_test">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
