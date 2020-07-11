@@ -5,9 +5,7 @@ import android.app.Application;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by user on 5/7/18.
- */
+
 
 public class BaseApps extends Application {
 
@@ -21,7 +19,7 @@ public class BaseApps extends Application {
 
     private Retrofit getRetrofit() {
         return new Retrofit.Builder()
-                .baseUrl("https://dog.ceo/")
+                .baseUrl("https://exploreborneo.xyz/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
     }

@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                             .commit();
                     return true;
                 case R.id.navigation_galery:
-                    fragment = new FragmentGalery();
+                    fragment = new FragmentWisata();
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.container_layout, fragment, fragment.getClass().getSimpleName())
                             .commit();
