@@ -5,15 +5,8 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-public class Images {
+public class ModelWisata {
 
-
-    @SerializedName("message")
-    @Expose
-    private List<String> message;
-    public List<String> getMessage(){
-        return message;
-    }
 
     @SerializedName("nama_tempat")
     @Expose
@@ -28,4 +21,5 @@ public class Images {
     public String getImage(){
         return image;
     }
+
 }
