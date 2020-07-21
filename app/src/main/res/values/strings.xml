@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ExploreBorneo</string>
+    <string name="app_name" translatable="false">ExploreBorneo</string>
 
 
     <string name="title_activity_welcome">Home Screen</string>
@@ -20,10 +20,29 @@
     <string name="slide_4_desc">Menjelajah Kalimantan Menjadi Lebih Menyenangkan</string>
 
 
-    <!--    Menu    -->
-    <string name="buttom_nav_home">Home</string>
-    <string name="buttom_nav_search">Search</string>
-    <string name="buttom_nav_galery">Galery</string>
-    <string name="title_activity_test">MainActivity</string>
+    <string name="nama_tempat">Nama Tempat</string>
+    <string name="kabupaten_kota">Kabupaten Kota</string>
+    <string name="htm">HTM</string>
+    <string name="jenis">Jenis</string>
 
+    <string name="detail">Selamat Datang, Silahkan Pilih Tempat Wisata yang Ingin Anda Lihat</string>
+
+
+<!--    <string name="app_name" translatable="false">Android About Page</string>-->
+    <string name="copy_right" translatable="false">Copyrights Atmasphere © %1$d</string>
+
+
+
+
+    <string name="about_contact_us">Contact us</string>
+    <string name="about_instagram">Follow us on Instagram</string>
+    <string name="about_facebook">Like us on Facebook</string>
+    <string name="about_play_store">Rate us on the Play Store</string>
+    <string name="about_youtube">Watch us on Youtube</string>
+    <string name="about_twitter">Follow us on Twitter</string>
+    <string name="about_github">Fork us on GitHub</string>
+    <string name="about_website">Visit our website</string>
+
+
+    <string name="about_page_description" translatable="false">Aplikasi dibuat oleh mahasiswa Teknik Informatika UNIKOM 10117124 untuk memenuhi tugas besar Aplikasi Komputasi Bergerak. </string>
 </resources>

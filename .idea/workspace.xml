@@ -5,19 +5,101 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="27926c12-8069-4361-bdf0-ac68ba92bac0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/entity/ModelWisata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/AboutActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/AdapterWisata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/EditActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/HomeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/LibraryAbout/AboutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/LibraryAbout/AboutPageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/LibraryAbout/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/Model/GetWisata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/Model/PostPutDelWisata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/Model/Wisata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/Utils/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/Utils/ApiInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/explore_borneo_splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/about_icon_copy_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/about_icon_email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/about_icon_facebook.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/about_icon_github.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/about_icon_google_play.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/about_icon_instagram.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/about_icon_link.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/about_icon_twitter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/about_icon_youtube.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dummy_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_info_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_list_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/aldrich.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/almendra_bold.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/antic_slab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/finger_paint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/about_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/about_page_separator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/wisata_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/OurData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/RetrofitInstance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/entity/Images.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/entity/Images.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/exploreborneo/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/atmasphere/exploreborneo/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/FragmentGalery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/FragmentHome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/FragmentSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/FragmentWisata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/ImagesAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/ListAdapterWisata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/LocalImageAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/PrefManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/PrefManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/SliderActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/SliderActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/SplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/atmasphere/exploreborneo/SplashScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/Utils/ApiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/Utils/BaseApps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/entity/Images.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/entity/LocalImages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/entity/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/exploreborneo/entity/ModelWisata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment_galery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_image.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_wisata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/wisata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/exploreborneo/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/atmasphere/exploreborneo/ExampleUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +128,12 @@
       </list>
     </option>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Data\Assets\Keystore\exploreborneo.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -59,13 +147,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="app" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_API_30" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-11T13:50:26.785Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-18T15:47:57.950Z" />
+    <property name="ExportApk.ApkPath" value="C:\Users\Iqbal\Desktop\explore_borneo\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,17 +168,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Iqbal\Desktop\explore_borneo\app\src\main\res\layout" />
+      <recent name="C:\Users\Iqbal\Desktop\explore_borneo\app\src\main\res\drawable" />
+      <recent name="C:\Users\Iqbal\Desktop\explore_borneo\app\src\main\java\com\atmasphere\exploreborneo\LibraryAbout" />
       <recent name="C:\Users\Iqbal\Desktop\MyFucking Tubes\AKB\explore_borneo\app\src\main\res\layout" />
       <recent name="C:\Users\Iqbal\Desktop\MyFucking Tubes\AKB\explore_borneo\app\src\main\res\drawable-v24" />
-      <recent name="C:\Users\Iqbal\Desktop\MyFucking Tubes\AKB\explore_borneo\app\src\main\res\menu" />
-      <recent name="C:\Users\Iqbal\Desktop\MyFucking Tubes\AKB\explore_borneo\app\src\main\java\com\example\exploreborneo" />
-      <recent name="C:\Users\Iqbal\Desktop\MyFucking Tubes\AKB\explore_borneo\app\src\main\res\drawable" />
     </key>
     <key name="android.template.-1144220833">
       <recent name="com.example.exploreborneo" />
     </key>
     <key name="android.template.-1571170604">
       <recent name="com.example.exploreborneo" />
+    </key>
+    <key name="android.template.212928991">
+      <recent name="com.atmasphere.exploreborneo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.exploreborneo" />
@@ -99,6 +195,12 @@
       <recent name="com.example.exploreborneo" />
     </key>
     <key name="android.template.1342360037">
+      <recent name="com.example.exploreborneo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Iqbal\Desktop\explore_borneo\app\src\main\res\drawable-v24" />
+    </key>
+    <key name="android.template.1458055711">
       <recent name="com.example.exploreborneo" />
     </key>
   </component>
@@ -192,36 +294,31 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="255" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1594549755624" />
-    <state x="445" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594477022645">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="556" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595226677430">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1593675791815" />
     <state x="445" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594477022645" />
-    <state x="265" y="115" key="AndroidCreateResourceFileDialog" timestamp="1594474587977">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="556" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595226677430" />
+    <state x="331" y="145" key="AndroidCreateResourceFileDialog" timestamp="1595080846993">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="221" y="95" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1593675864762" />
     <state x="265" y="115" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1594474587977" />
-    <state x="458" y="162" key="FileChooserDialogImpl" timestamp="1594491515581">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="331" y="145" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595080846993" />
+    <state x="1224" y="258" key="Downloadable.Font.Dialog.Size" timestamp="1595222030480">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1224" y="258" key="Downloadable.Font.Dialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1595222030480" />
+    <state x="573" y="204" key="FileChooserDialogImpl" timestamp="1595233701611">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="382" y="134" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1593675269895" />
     <state x="458" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594491515581" />
-    <state width="1476" height="208" key="GridCell.Tab.0.bottom" timestamp="1594475768828">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
+    <state x="573" y="204" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595233701611" />
     <state width="1476" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594475768828" />
-    <state width="1476" height="208" key="GridCell.Tab.0.center" timestamp="1594475768827">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
     <state width="1476" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594475768827" />
-    <state width="1476" height="208" key="GridCell.Tab.0.left" timestamp="1594475768827">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
     <state width="1476" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594475768827" />
-    <state width="1476" height="208" key="GridCell.Tab.0.right" timestamp="1594475768828">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
     <state width="1476" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594475768828" />
     <state x="541" y="143" key="chooseDestDirectoryDialog" timestamp="1594399490519">
       <screen x="0" y="0" width="1536" height="824" />
@@ -232,15 +329,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1280.680@0.0.1280.680" timestamp="1593679735145" />
-    <state x="403" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1594565035190">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="504" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1595249066291">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="336" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1593671602795" />
     <state x="403" y="199" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594565035190" />
-    <state x="426" y="189" key="run.anything.popup" timestamp="1594490134836">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2256" y="184" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1280.760@1920.0.1280.760" timestamp="1595084411117" />
+    <state x="504" y="252" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595249066291" />
+    <state x="533" y="239" key="run.anything.popup" timestamp="1595082537508">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="426" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594490134836" />
+    <state x="533" y="239" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595082537508" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594550252890">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
