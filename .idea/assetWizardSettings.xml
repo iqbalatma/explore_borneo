@@ -79,9 +79,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\Iqbal\Downloads\base_icon.png" />
-                                                <entry key="scalingPercent" value="99" />
-                                                <entry key="trimmed" value="true" />
+                                                <entry key="imagePath" value="C:\Users\Iqbal\Downloads\look.png" />
+                                                <entry key="scalingPercent" value="39" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -114,8 +113,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="137b70" />
-                                      <entry key="outputName" value="base_icon" />
+                                      <entry key="backgroundColor" value="147b63" />
+                                      <entry key="outputName" value="base_icon_look_2" />
                                     </map>
                                   </option>
                                 </PersistentState>

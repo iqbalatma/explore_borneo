@@ -6,10 +6,10 @@
 
 
     <!-- Screens background color-->
-    <color name="bg_screen1">#93DD6C</color>
-    <color name="bg_screen2">#6EB66E</color>
+    <color name="bg_screen1">#045C54</color>
+    <color name="bg_screen2">#609C60</color>
     <color name="bg_screen3">#008B8B</color>
-    <color name="bg_screen4">#FFC107</color>
+    <color name="bg_screen4">#F4BF21</color>
 
     <!-- dots inactive colors -->
     <color name="dot_dark_screen1">#FFFFF0</color>
@@ -56,7 +56,7 @@
     <!-- Dark Mode Texts -->
     <color name="about_description_dark_text_color">#C1C1C1</color>
     <color name="about_item_dark_text_color">#FFFFFF</color>
-    <color name="about_text_dark_color">#C1C1C1</color>
+    <color name="about_text_dark_color">#915050</color>
 
     <!-- Social -->
     <color name="about_facebook_color">#3b5998</color>
@@ -65,5 +65,8 @@
     <color name="about_play_store_color">#689F38</color>
     <color name="about_youtube_color">#cd201f</color>
     <color name="about_github_color">#333333</color>
+
+
+<!--    <color name="splash">#</color>-->
 
 </resources>

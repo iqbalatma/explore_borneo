@@ -3,17 +3,22 @@ package com.atmasphere.exploreborneo;
 
 
 import android.content.Intent;
-        import android.view.LayoutInflater;
+import android.net.Uri;
+import android.view.LayoutInflater;
         import android.view.View;
         import android.view.ViewGroup;
-        import android.widget.TextView;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.atmasphere.exploreborneo.Model.Wisata;
+import com.bumptech.glide.Glide;
 
 
+import java.net.URI;
 import java.util.List;
+
 
 
 
@@ -29,6 +34,7 @@ public class AdapterWisata extends RecyclerView.Adapter<AdapterWisata.MyViewHold
 
 
     List<Wisata> mKontakList;
+
 
     public AdapterWisata(List <Wisata> KontakList) {
         mKontakList = KontakList;
@@ -70,10 +76,22 @@ public class AdapterWisata extends RecyclerView.Adapter<AdapterWisata.MyViewHold
             default:
                 System.out.println("nilai a tidak di katahui");
         }
-        holder.mTextViewNamaTempat.setText(mKontakList.get(position).getNama());
-        holder.mTextviewJenis.setText(jenis);
-        holder.mTextViewKabupatenKota.setText(mKontakList.get(position).getKabupatenKota());
-        holder.mTextViewHTM.setText(mKontakList.get(position).getHtm());
+//        ImageView img = ((MyViewHolder) holder).img;
+        holder.mTextViewNamaTempat.setText("Nama Tempat " + mKontakList.get(position).getNama());
+        holder.mTextviewJenis.setText("Jenis Tempat " + jenis);
+        holder.mTextViewKabupatenKota.setText("Nama Kabupaten " + mKontakList.get(position).getKabupatenKota());
+        holder.mTextViewHTM.setText("Harga Tiket Masuk Rp " + mKontakList.get(position).getHtm());
+        Glide.with(holder.itemView.getContext())
+                // LOAD URL DARI INTERNET
+                .load(mKontakList.get(position).getImage())
+                // LOAD GAMBAR AWAL SEBELUM GAMBAR UTAMA MUNCUL, BISA DARI LOKAL DAN INTERNET
+                .placeholder(R.drawable.base_icon)
+                //. LOAD GAMBAR SAAT TERJADI KESALAHAN MEMUAT GMBR UTAMA
+                .error(R.drawable.animal)
+                .into(holder.img);
+//        holder.img.setImageResource(Integer.parseInt(mKontakList.get(position).getImage()));
+
+//        holder.img.setImageURI(mKontakList.get(position).getImage());
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -130,6 +148,7 @@ public class AdapterWisata extends RecyclerView.Adapter<AdapterWisata.MyViewHold
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView mTextViewNamaTempat, mTextViewKabupatenKota, mTextViewHTM, mTextviewJenis;
+        public ImageView img;
 
         public MyViewHolder(View itemView) {
             super(itemView);
@@ -137,6 +156,7 @@ public class AdapterWisata extends RecyclerView.Adapter<AdapterWisata.MyViewHold
             mTextViewKabupatenKota = (TextView) itemView.findViewById(R.id.kabupaten_kota);
             mTextViewHTM = (TextView) itemView.findViewById(R.id.htm);
             mTextviewJenis = (TextView) itemView.findViewById(R.id.jenis);
+            img = itemView.findViewById(R.id.imageView5);
         }
     }
 }

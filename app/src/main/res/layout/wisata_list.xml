@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
@@ -46,9 +47,16 @@
             android:layout_below="@id/htm"
             android:textSize="15sp" />
 
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_below="@id/jenis"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/animal" />
 
 
-<!--        <TextView-->
+        <!--        <TextView-->
 <!--            android:id="@+id/tvNomor"-->
 <!--            android:layout_width="wrap_content"-->
 <!--            android:layout_height="wrap_content"-->
@@ -62,4 +70,5 @@
         android:layout_width="match_parent"
         android:layout_height="5dp"
         android:background="@color/dot_dark_screen1" />
+
 </LinearLayout>
