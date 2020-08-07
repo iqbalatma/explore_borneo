@@ -20,7 +20,7 @@ public interface ApiInterface {
    Nama        : Iqbal Atma Muliawan
    Kelas       : IF4
    Matakuliah  : Aplikasi Komputasi Bergerak
-
+A
    16 Juli 2020    : Membuat apiinterface untuk mengambil bagian api yang dibutuhkan
    */
 
